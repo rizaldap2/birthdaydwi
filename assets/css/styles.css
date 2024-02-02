@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(241, 232, 220);
+}
+
+#gambar1 {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/hp%20(1).png") center / contain no-repeat;
+}
+
+@media (min-width: 576px) {
+  #gambar1 {
+    background: url("../../assets/img/pc%20(1).png") center / cover no-repeat;
+  }
+}
+
+#gambar2 {
+  background: url("../../assets/img/hp%20(2).png") center / cover no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+@media (min-width: 576px) {
+  #gambar2 {
+    background: url("../../assets/img/pc%20(2).png") center / cover no-repeat;
+  }
+}
+
+.buttonnav {
+  background: rgba(255,255,255,0);
+  border-style: groove;
+  display: grid;
+  position: relative;
+  overflow: visible;
+}
+
+#footer {
+  position: sticky;
+  display: block;
+}
+
